@@ -1,0 +1,17 @@
+/*================== ANIMATED LINKS ===========================*/
+.bemax_animated_links .cl-effect-11 {
+  overflow: hidden;
+}
+
+
+.bemax_animated_links nav a {
+  margin: 0;
+}
+
+.bemax_animated_links, .bemax_animated_links nav, .bemax_animated_links span, .bemax_animated_links a   {
+  width: 100%;
+}
+
+.cl-effect-10 a {
+  background-color: transparent !important;
+}

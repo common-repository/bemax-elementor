@@ -1,0 +1,24 @@
+h3.miguras_team_member_position {
+    font-size: 130%;
+}
+
+img.miguras_team_member_image {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+.miguras_team_member_networks a{
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.miguras_team_member_description {
+    margin: 5% 0;
+}
+
+.miguras_team_member_networks a {
+    margin: 0 1%;
+}

@@ -1,0 +1,179 @@
+/*====================== YOUTUBE BACKGROUND ============================*/
+.bemax_youtubebg {
+  position: relative;
+  overflow: hidden !important;
+}
+
+.bemax_youtube_black {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  top: 0;
+  overflow: hidden;
+  left: 0;
+}
+
+
+.bemax_youtube_background_container{
+ position: absolute;
+ background: transparent;
+ width: 100%;
+ z-index: 0;
+ top: 0;
+ height: 100%;
+ overflow: hidden;
+ left: 0;
+}
+
+
+
+
+.bemax_youtube_background_overlay {
+  position: absolute;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+.bemax_youtubebg .ytplayer-container{
+ position: absolute;
+ top: 0;
+ z-index: -1;
+}
+
+
+/************* TILT EFFECT **************/
+.bemax_tilteffect{
+  overflow: hidden;
+}
+
+.bemax_tilt_parallax {
+  transform-style: preserve-3d;
+}
+
+.bemax_tilt_parallax .et_pb_module {
+  transform: translateZ(20px);
+}
+
+.bemax_overflow {
+  overflow-x: hidden !important;
+}
+
+/*=============== OFF CANVAS PLUGIN ================*/
+.bemax_offcanvas {
+    width: 0 !important;
+    height: 0 !important;
+    float: left !important;
+    overflow: hidden !important;
+}
+
+.bemax_offcanvas_inner_wrapper{
+  background: inherit;
+}
+
+.bemax_offcanvas_inner_wrapper .elementor-editor-element-settings {
+  opacity: 0;
+}
+.bemax_offcanvas_inner_wrapper:hover .elementor-editor-element-settings {
+  opacity: 1;
+}
+
+
+.bemax_offcanvas.bemax_offcanvas_offcanvas{
+  opacity: 1 !important;
+}
+
+.bemax_offcanvas_offcanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999999 !important;
+  width: 0;
+  overflow: hidden;
+  padding: 32px 16px 32px 32px !important;
+}
+
+.bemax_offcanvas_offcanvas .elementor-column, .bemax_offcanvas_offcanvas .elementor-row {
+  width: 100% !important;
+  max-width: 100%;
+  display: block;
+}
+
+.bemax_offcanvas_offcanvas_button_wrapper i {
+  cursor: pointer;
+}
+
+.bemax_offcanvas_offcanvas_button_wrapper {
+  position: fixed;
+  z-index: 99999998;
+  display: block;
+
+}
+
+.bemax_offcanvas_offcanvas_button {
+  cursor: pointer;
+}
+
+.bemax_offcanvas_offcanvas_button {
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+
+
+.bemax_inside_top, .bemax_inside_middle, .bemax_inside_bottom {
+  z-index: 99999999;
+  opacity: 0.6;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.bemax_inside_top:hover, .bemax_inside_middle:hover, .bemax_inside_bottom:hover {
+  opacity: 1;
+}
+
+.bemax_offcanvas_offcanvas_button_wrapper span{
+  display: block;
+  float: left;
+}
+
+.bemax_offcanvas_offcanvas_button_text {
+    padding: 0 0.2em;
+    cursor: pointer;
+}
+
+/*========================= SCROLLBAR =============================*/
+
+.bemax_scrollbar .elementor-editor-element-settings {
+  opacity: 0;
+}
+.bemax_scrollbar:hover .elementor-editor-element-settings {
+  opacity: 1;
+}
+
+/*================== helpers =========================*/
+
+.bemax_opacity_class {
+  opacity: 0 !important;
+}
+
+/*=============== PARTICLES BACKGROUND ====================*/
+/***************************************************/
+.bemax_particles_bg {
+    position: relative;
+    overflow-y: hidden;
+}
+
+.bemax_particles_bg canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
